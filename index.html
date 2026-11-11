@@ -8,49 +8,62 @@
 </head>
 <body>
     <header>
-        <h1>Mein Portfolio, Alihan Alihanoglu</h1>
-        <nav>
-            <a href="#start">Start</a>
-            <a href="#uebermich">Über mich</a>
-            <a href="#Projekte">Projekte</a>
-        </nav>
+        <h1>Mein Portfolio  <br>Alihan Alihanoglu</h1>
     </header>
+     <nav>
+            <ul>
+                <li><a href="#start">Start</a></li>
+                <li><a href="#uebermich">Über mich</a></li>
+                <li><a href="#Projekte">Projekte</a></li>
+            </ul>
+        </nav>
     <main>
-        <img src="C:\Users\aliha\DEV\Landingpage\images\Bewerbungsfoto.jpeg" alt="Alihan Alihanoglu">
-    <section id="start">
-        <h2>Start</h2>
-        <p>Ich bin Fachinformatiker für Daten- und Prozessanalyse. Ich interessiere mich für Daten, Automatisierung und Webentwicklung und entwickle praxistaugliche Lösungen, die Arbeitsabläufe vereinfachen. </p>
+        
+    <section id="start" class="hero">
+        <img class="profile-image" src="images/Bewerbungsfoto.jpeg" alt="Alihan Alihanoglu">
+        
+        <div>
+            <h2>Start</h2>
+            <p>Ich bin Fachinformatiker für Daten- und Prozessanalyse und beschäftige mich mit der Analyse, Transformation und Bereitstellung von Daten. Mein Ziel ist es, Datenverständnis und Softwareentwicklung zu verbinden, um Arbeitsabläufe durch praxistaugliche digitale Lösungen zu vereinfachen.</p>
+        </div>
     </section>
         <section id="uebermich">
         <h2>Über mich</h2>
-            <p>Aktuell vertiefe ich meine Kenntnisse in HTML und CSS, um moderne und responsive Webseiten zu entwickeln. Außerdem arbeite ich mit Python, APIs, JSON und Git an Automatisierungs- und Datenprojekten. Mein Ziel ist es, praxistaugliche Anwendungen zu entwickeln, die echte Arbeitsabläufe vereinfachen.</p>
+            <p>Für mich bedeutet Datenanalyse mehr als die Verarbeitung von Zahlen. Um Daten richtig zu interpretieren, müssen die zugrunde liegenden Geschäftsprozesse verstanden werden. So lassen sich die richtigen Fragen stellen und aussagekräftige Dashboards entwickeln.</p>
+            <p>Neben der Datenanalyse beschäftige ich mich intensiv mit Softwareentwicklung. In eigenen Projekten, etwa einem Kundenportal für die Gastronomie und einer Python-Anwendung zur Verwaltung von Produktdaten, verbinde ich vorhandenes Wissen mit neuen Technologien und entwickle meine Fähigkeiten kontinuierlich weiter.</p>
     </section>
         <section id="Projekte">
             <h2>Projekte</h2>
-        <article>
-            <h3>Kundenportal</h3>
-                <p>Ein internes Kundenportal, das Kundendaten zentral verwaltet und Bestellabläufe vereinfachen soll. Ziel ist es, wiederkehrende Kundendaten nicht erneut aufnehmen zu müssen und die Bon-Ausgabe beim Drucken übersichtlicher zu gestalten.</p>
-                <p><strong>Status: In Entwicklung </strong></p>
-        </article>
-        <article>
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3>Kundenportal</h3>
+                        <p>Ein internes Kundenportal, das Kundendaten zentral verwaltet und Bestellabläufe vereinfachen soll. Ziel ist es, wiederkehrende Kundendaten nicht erneut aufnehmen zu müssen und die Bon-Ausgabe beim Drucken übersichtlicher zu gestalten.</p>
+                        <p><strong>Status: In Entwicklung </strong></p>
+                </article>
+        <article class="project-card">
             <h3>Druckerkosten-Monitoring(QlikSense-App)</h3>
                 <p>Analyse eines manuellen Excel-Prozesses und Aufbau einer zentralen Auswertung mit Qlik Sense. Ziel war es, manuelle Arbeit zu reduzieren und Transparenz über Druckkosten zu schaffen.</p>
+                <p><strong>Status: Fertig </strong></p>
         </article>
-        <article>
+        <article class="project-card">
             <h3>CRM-App(QlikSense-App)</h3>
                 <p>Analyse bestehender Daten, Transformation und Visualisierung von Kunden- und Umsatzdaten für den BRAX Member Club. Die Auswertung bündelt Daten aus Onlineshop, Stores und Outlets.</p>
+                <p><strong>Status: Fertig </strong></p>
         </article>
-        <article>
+        <article class="project-card">
             <h3>Python Product Management CLI</h3>
                 <p>Private Python-Anwendung zur Verwaltung von Produktdaten. Das Projekt nutzt ein Datenmodell, JSON-Speicherung, Repository- und Service-Schichten sowie automatisierte Tests mit pytest.</p>
+                <p><strong>Status: In Entwicklung </strong></p>
         </article>
+            </div>         
     </section>
     </main>
     <footer>
-        <p>Alihan Alihanoglu, 2026</p> 
-        <a href="https://github.com/alihana002?tab=overview&from=2026-10-01&to=2026-10-31">github</a>
-        <a href="https://www.linkedin.com/in/alihan-alihanoglu-2351a6347/">linkedin</a>
+        <p>Alihan Alihanoglu, 2026</p>
+        <div class="footer-links">
+            <a href="https://github.com/alihana002?tab=overview&from=2026-10-01&to=2026-10-31">github</a>
+            <a href="https://www.linkedin.com/in/alihan-alihanoglu-2351a6347/">linkedin</a>
+        </div>
     </footer>
-
 </body>
 </html>
