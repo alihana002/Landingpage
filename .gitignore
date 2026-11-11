@@ -211,6 +211,14 @@ tempCodeRunnerFile.py
 # PyPI configuration file
 .pypirc
 
+# Private project files and local learning material
+Lebenslauf.pdf
+AGENTS.md
+ROADMAP.md
+cheatsheet/
+box-model-labor.html
+graphify-out/
+
 # Marimo
 marimo/_static/
 marimo/_lsp/
